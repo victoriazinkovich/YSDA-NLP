@@ -8,10 +8,6 @@ Here will briefly write about the homeworks and the most important things I lear
 
 - **Procrusters problem** is about finding a linear transformation that establishes a correspondence between words in two languages
 
-<br>
-
 $$W^*= \arg\min_W \sum_{i=1}^n||Wx_i - y_i||_2$$
-
-<br>
 
 $$W^*= \arg\min_W ||WX - Y||_F$$
