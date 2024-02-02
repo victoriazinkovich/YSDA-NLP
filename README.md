@@ -7,6 +7,6 @@ There are workshops where you had to finish a couple lines of code compared to t
 
 <br>
 
-Topics:
+## **Topics:**
   1. Word Embeddings
   2. 
