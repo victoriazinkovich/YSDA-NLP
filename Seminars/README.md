@@ -2,8 +2,6 @@ Here will briefly write about the seminars and the most important things I learn
 
 ---
 
-<br>
-
 ## 1. Word Embeddings
 
 <br>
