@@ -1,6 +1,6 @@
 Here will briefly write about the seminars and the most important things I learned in them.
 
-<br>
+---
 
 <br>
 
