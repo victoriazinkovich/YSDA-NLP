@@ -1,5 +1,5 @@
 # NLP-SDA
-NLP course homework solutions from Yandex School of Data Analytics 
+NLP course homework solutions from Yandex School of Data Analytics $-$ https://github.com/yandexdataschool/nlp_course.
 
 <br>
 
