@@ -32,6 +32,47 @@ Here will briefly write about the seminars and the most important things I learn
 
 2. **Logistic Regression** $-$ there is some set of attributes, by which we define the object, and we introduce weights for each attribute; as a probability we take the softmax of the scalar product $w^{(k)}f$
 
+<br>
+
+3. **Support Vector Machine** (SVM) $-$ also match features for an object (sentence), then apply SVM for classification (uses bag of words + biagrams)
+
+<br>
+
+*Neural Classification methods:*
+Instead of hand selection, the features vector is selected by a neural network.
+
+1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
