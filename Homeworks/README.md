@@ -24,3 +24,8 @@ $$W^*= \arg\min_W ||WX - Y||_F \text{, where: } W^TW = I$$
 $$I - \text{identity matrix}$$
 
 <br>
+
+<br>
+
+## 2. Text Classification
+
