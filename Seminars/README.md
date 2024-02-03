@@ -11,3 +11,11 @@ Here will briefly write about the seminars and the most important things I learn
 <br>
 
 - **t-distributed Stochastic Neighbor Embedding** (t-SNE) $-$ popular method for exploring high-dimensional data, ability to create compelling two-dimensonal “maps” from data with hundreds or even thousands of dimensions.
+
+<br>
+
+<br>
+
+## 2. Text Classification
+
+- 
