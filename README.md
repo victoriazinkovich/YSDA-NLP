@@ -7,4 +7,5 @@ There are seminars where it is needed to finish a couple lines of code compared 
 
 ## **Topics:**
   1. Word Embeddings
-  2. 
+  2. Text Classification
+  3. 
