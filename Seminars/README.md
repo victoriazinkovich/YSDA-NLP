@@ -39,6 +39,7 @@ Here will briefly write about the seminars and the most important things I learn
 <br>
 
 *Neural Classification methods:*
+
 Instead of hand selection, the features vector is selected by a neural network.
 
 1.
