@@ -4,8 +4,6 @@ Here will briefly write about the seminars and the most important things I learn
 
 ## 1. Word Embeddings
 
-<br>
-
 - **Principial Component Analysis** (PCA) $-$ the simplest linear dimensionality reduction method.
 
 <br>
