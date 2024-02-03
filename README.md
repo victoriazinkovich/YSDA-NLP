@@ -1,4 +1,4 @@
-# NLP-SDA
+# NLP-YSDA
 NLP course homework solutions from Yandex School of Data Analytics $-$ https://github.com/yandexdataschool/nlp_course.
 
 <br>
