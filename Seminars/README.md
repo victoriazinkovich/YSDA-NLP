@@ -24,7 +24,7 @@ Here will briefly write about the seminars and the most important things I learn
 
 <br>
 
-*Classical Classification methods:*
+### *Classical Classification methods:*
 
 1. **Naive Bayes classifier** $-$ generative model, which assumes that all words are in a certain "bag" and their order is not important to us; not a very accurate model, but it is easy to control what and where went wrong
 
@@ -38,7 +38,7 @@ Here will briefly write about the seminars and the most important things I learn
 
 <br>
 
-*Neural Classification methods:*
+### *Neural Classification methods:*
 
 Instead of hand selection, the features vector is selected by a neural network.
 
