@@ -42,7 +42,32 @@ Here will briefly write about the seminars and the most important things I learn
 
 Instead of hand selection, the features vector is selected by a neural network.
 
-1.
+1. *Weighted* Bag of Words (BOW) $-$ just summarize embeddings of words in the text and get feature vector
+
+<br>
+
+2. Convolutional Neural Network (CNN) $-$ like CNN's idea for pictures (find a cat no matter where it is);
+    - **convolution** $-$ linear layer that takes only some window of vectors
+    - **non-lineariry** (ReLU) $-$ 0 if no cat, 1 if cat (like threshold)
+    - **pooling** $-$ averaging, if there is a cat at least somewhere 
+
+<br>
+
+3. Recurrent Neural Network (RNN) $-$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
