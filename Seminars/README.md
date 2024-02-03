@@ -24,13 +24,13 @@ Here will briefly write about the seminars and the most important things I learn
 
 <br>
 
-Classification Methods:
+*Classical Classification methods:*
 
 1. **Naive Bayes classifier** $-$ generative model, which assumes that all words are in a certain "bag" and their order is not important to us; not a very accurate model, but it is easy to control what and where went wrong
 
 <br>
 
-2. **Logistic Regression** $-$ 
+2. **Logistic Regression** $-$ there is some set of attributes, by which we define the object, and we introduce weights for each attribute; as a probability we take the softmax of the scalar product $w^{(k)}f$
 
 
 
