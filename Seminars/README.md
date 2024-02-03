@@ -60,7 +60,7 @@ Instead of hand selection, the features vector is selected by a neural network.
 
 <br>
 
-## To Note:
+### To Note:
 - **Fine-tuning importance:** in Word2Vec, for example, antonyms will have very close embeddings ("black" and "white", "good" and "bad") because they often occur in similar contexts: this can be bad for the semantics task.
 - **Data Augmentation:**
     - word dropout (replace word with UNK/random word/synonyoums)
