@@ -27,5 +27,11 @@ $$I - \text{identity matrix}$$
 
 ## 2. Text Classification
 
-- 
+- it is generally a good idea to split data into train/test **before** anything is done to them.
+
+
+
+
+
+
 
