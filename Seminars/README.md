@@ -65,6 +65,7 @@ Instead of hand selection, the features vector is selected by a neural network.
 - **Data Augmentation:**
     - word dropout (replace word with UNK/random word/synonyoums)
     - paraphrasing (translate and translate back)
+- Tokenization and vocabulary building should happen on **training set only**
 
 
 
