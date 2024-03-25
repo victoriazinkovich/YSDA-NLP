@@ -56,16 +56,16 @@ Instead of hand selection, the features vector is selected by a neural network.
 3. Recurrent Neural Network (RNN) $-$ a more natural idea for texts, the RNN reads the text word for word;
     - **two RNN layers** can be done: remember everything that you read and read one more time
     - **disadvantage**: can forget the beginning of the phrase if it's long
-    - **fix**: one RNN reads left-to-right, the second reads right-to-left and then result is concatenated  
-
-<br>
+    - **fix**: one RNN reads left-to-right, the second reads right-to-left and then result is concatenated
+    - 
 
 ### To Note:
 - **Fine-tuning importance:** in Word2Vec, for example, antonyms will have very close embeddings ("black" and "white", "good" and "bad") because they often occur in similar contexts: this can be bad for the semantics task.
 - **Data Augmentation:**
     - word dropout (replace word with UNK/random word/synonyoums)
     - paraphrasing (translate and translate back)
-- Tokenization and vocabulary building should happen on **training set only**
+- **Tokenization** $-$ Tokenization and vocabulary building should happen on **training set only**
+- **Embedding layer** $-$ words are represented as one-hot vectors, which are high-dimensional and sparse, which makes them difficult to work with; the embedding layer could map each word to a low-dimensional vector
 
 
 
