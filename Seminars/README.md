@@ -80,7 +80,8 @@ $$
 P\left( y_1, y_2, \ldots, y_n \right) = P\left(y_1\right) \cdot P\left(y_2 \mid y_1\right) \cdot P\left(y_3 \mid y_1, y_2\right) \cdots P\left(y_n \mid y_1, \ldots, y_{n-1}\right) = \prod_{t=1}^n P\left(y_t \mid  y_{\textless t} \right)
 $$
 
-
+    - N-gram models
+    - Neural models
 
 
 
