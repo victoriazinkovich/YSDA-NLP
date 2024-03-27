@@ -86,7 +86,10 @@ What we got is the standard left-to-right language modeling framework. This fram
     - Backoff (aka Stupid Backoff)
     - Linear interpolation  
 - **Neural models** $-$ main idea here is to get a vector representation for the previous context; using this representation, a model predicts a probability distribution for the next token; looks similar to **classification**!
-    - Last linear layer maps to the size of vocabulary, then apply Softmax 
+    - Last linear layer maps to the size of vocabulary, then apply Softmax
+    - Types of NM:
+        - Recurent NN (few Layers of RNN)
+        - Convolution NN
 
 
 
