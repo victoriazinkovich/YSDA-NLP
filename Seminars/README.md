@@ -84,7 +84,8 @@ What we got is the standard left-to-right language modeling framework. This fram
 
 - **N-gram models** $-$ *Markov Property*, probability of a word only depends on a fixed number of previous words (unigram model = bag of words)
     - Backoff (aka Stupid Backoff)
-    - Linear interpolation  
+    - Linear interpolation
+<br>
 - **Neural models** $-$ main idea here is to get a vector representation for the previous context; using this representation, a model predicts a probability distribution for the next token; looks similar to **classification**!
     - Last linear layer maps to the size of vocabulary, then apply Softmax
     - Types of NM:
