@@ -74,9 +74,11 @@ Instead of hand selection, the features vector is selected by a neural network.
 ## 3. Language Modeling
 Language Models (LMs) estimate the probability of different linguistic units: symbols, tokens, token sequences.
 
-- One of the main questions in Language Models is to find the probablility of some specific sentence. Formally, let $y_1, y_2, \ldots, y_n$ be tokens in a sentence, and $P\left(y_1, y_2, \ldots, y_n\right)$ the probability to see all these tokens (in this order). Using the product rule of probability (aka the chain rule), we get
+- One of the main questions in Language Models is to find the probablility of some specific sentence. Formally, let $y_1, y_2, \ldots, y_n$ be tokens in a sentence, and $P\left(y_1, y_2, \ldots, y_n\right)$ the probability to see all these tokens (in this order). Using the product rule of probability (aka the chain rule), we get:
 
-
+$$
+P\left( y_1, y_2, \ldots, y_n \right) 
+$$
 
 
 
