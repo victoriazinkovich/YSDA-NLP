@@ -30,6 +30,7 @@ $$I - \text{identity matrix}$$
 - **Naive Bayes Classifier** $-$ generative model (intrested in joint distribution), we rewrite the conditional class probability $P(y=k|x)$ using Bayes's rule and get $P(x|y=k)\cdot P(y=k)$; Naive Bayes is a *generative model*, it models the joint probability of data
 
 - **Logistic Regression** (aka Maximum Entropy Classifier) $-$ discriminative model, we choose weights such that the data is more likely to appear (use gradient ascent)
+  - In this approach, used the idea, that minimization of the cross-entropy loss is equivalent to maximizing the data log-likelihood
 
 To Note:
 - it is generally a good idea to split data into train/test **before** anything is done to them.
