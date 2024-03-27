@@ -67,8 +67,14 @@ Instead of hand selection, the features vector is selected by a neural network.
 - **Tokenization** $-$ Tokenization and vocabulary building should happen on **training set only**
 - **Embedding layer** $-$ words are represented as one-hot vectors, which are high-dimensional and sparse, which makes them difficult to work with; the embedding layer could map each word to a low-dimensional vector
 
+<br>
 
+<br>
 
+## 3. Language Modeling
+Language Models (LMs) estimate the probability of different linguistic units: symbols, tokens, token sequences.
+
+- 
 
 
 
