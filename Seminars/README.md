@@ -77,7 +77,7 @@ Language Models (LMs) estimate the probability of different linguistic units: sy
 - One of the main questions in Language Models is to find the probablility of some specific sentence. Formally, let $y_1, y_2, \ldots, y_n$ be tokens in a sentence, and $P\left(y_1, y_2, \ldots, y_n\right)$ the probability to see all these tokens (in this order). Using the product rule of probability (aka the chain rule), we get:
 
 $$
-P\left( y_1, y_2, \ldots, y_n \right) = P\left(y_1\right) \cdot P\left(y_2 \mid y_1\right) \cdot P\left(y_3 \mid y_1, y_2\right) \cdots P\left(y_n \mid y_1, \ldots, y_{n-1}\right) = \prod_{t=1}^n P\left(y_t | y_{<t} \right)
+P\left( y_1, y_2, \ldots, y_n \right) = P\left(y_1\right) \cdot P\left(y_2 \mid y_1\right) \cdot P\left(y_3 \mid y_1, y_2\right) \cdots P\left(y_n \mid y_1, \ldots, y_{n-1}\right) = \prod_{t=1}^n P\left(y_t  y_{<t} \right)
 $$
 
 
