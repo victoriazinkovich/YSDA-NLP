@@ -83,7 +83,7 @@ $$
 What we got is the standard left-to-right language modeling framework. This framework is quite general: N-gram and neural language models differ only in a way they compute the conditional probabilities: 
 
 - N-gram models
-- - Neural models
+- Neural models
 
 
 
