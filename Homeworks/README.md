@@ -41,3 +41,5 @@ To Note:
 <br>
 
 ## 3. Language Modelling
+
+RNN Language Models $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them
