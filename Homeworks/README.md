@@ -46,7 +46,9 @@ To Note:
 
 $$P(X) = \prod_t P(x_t \mid x_0, \dots, x_{t-1})$$
 
-2. **RNN Language Models** $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them (in this part I refer to recurrent cells in general (e.g. vanilla RNN, LSTM, GRU, etc).)
+<br>
+
+2. **RNN Language Models** $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them (in this part I refer to recurrent cells in general (e.g. vanilla RNN, LSTM, GRU, etc)
 
 $$ h_0 = \vec 0 ; \quad h_{t+1} = RNN(x_t, h_t) $$
 
