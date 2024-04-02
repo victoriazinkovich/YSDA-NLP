@@ -46,4 +46,17 @@ To Note:
 
 $$P(X) = \prod_t P(x_t \mid x_0, \dots, x_{t-1})$$
 
-2. **RNN Language Models** $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them
+2. **RNN Language Models** $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them (in this part I refer to recurrent cells in general (e.g. vanilla RNN, LSTM, GRU, etc).)
+
+$$ h_0 = \vec 0 ; \quad h_{t+1} = RNN(x_t, h_t) $$
+
+$$ p(x_t \mid x_0, \dots, x_{t-1}, \theta) = dense_{softmax}(h_{t-1}) $$
+
+Such model processes one token at a time, left to right, and maintains a hidden state vector between them. Theoretically, it can learn arbitrarily long temporal dependencies given large enough hidden size.
+
+RNN Types:
+  - One-Layer RNN
+  - Multiple layers: feed the states from one RNN to the next one
+
+
+
