@@ -42,4 +42,8 @@ To Note:
 
 ## 3. Language Modelling
 
-RNN Language Models $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them
+1. **Neural Language Model** $-$ Just like for N-gram LMs, we want to estimate probability of text as a joint probability of tokens; instead of counting all possible statistics, we want to train a neural network with parameters $\theta$ that estimates the conditional probabilities
+
+$$P(X) = \prod_t P(x_t \mid x_0, \dots, x_{t-1})$$
+
+2. **RNN Language Models** $-$ such model processes one token at a time, left to right, and maintains a hidden state vector between them
