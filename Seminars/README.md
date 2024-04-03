@@ -100,10 +100,14 @@ Generation quality metric $-$ instead of cross-entropy, it is more common to rep
 <br>
 
 ## 4. Seq2seq and Attention
+**Sequence to Sequence task** $-$ usually, translation from one natural language to another; encoder-decoder is the standard modeling paradigm for sequence-to-sequence tasks:
+- Encoder $-$ reads source sequence and produces its representation
+- Decoder $-$ uses source representation from the encoder to generate the target sequence
 
+<br>
 
-
-
+**Attention**
+Problem: Fixed source representation is suboptimal: (i) for the encoder, it is hard to compress the sentence; (ii) for the decoder, different information may be relevant at different steps $-$ in each state, I'd like to peek at which part of the source is most useful right now 
 
 
 
