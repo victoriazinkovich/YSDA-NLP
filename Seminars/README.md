@@ -107,9 +107,12 @@ Generation quality metric $-$ instead of cross-entropy, it is more common to rep
 <br>
 
 **Attention**
+
 Problem: Fixed source representation is suboptimal: (i) for the encoder, it is hard to compress the sentence; (ii) for the decoder, different information may be relevant at different steps $-$ in each state, I'd like to peek at which part of the source is most useful right now 
 
+<br>
 
+**Transformer**
 
 
 
