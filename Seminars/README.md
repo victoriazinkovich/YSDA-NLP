@@ -118,7 +118,8 @@ Ways to compute attention score:
 
 <br>
 
-**Transformer**
+**Transformer** $-$ model based solely on attention mechanisms, introduced a new modeling paradigm: in contrast to previous models where processing within encoder and decoder was done with recurrence or convolutions, Transformer operates using only attention.
+
 
 
 
