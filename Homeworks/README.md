@@ -62,4 +62,10 @@ RNN Types:
 
 ![image](https://github.com/victoriazinkovich/NLP-YSDA/assets/78615928/54286866-acd1-4a47-841e-a609a495794a)
 
+<br>
+
+<br>
+
+## 4. Seq2seq and Attention
+
 
