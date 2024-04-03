@@ -70,8 +70,7 @@ RNN Types:
 
 **Subword Segmentation, Byte Pair Encoding** $-$ standard subword segmentation, Byte Pair Encoding (BPE); BPE keeps frequent words intact and splits rare and unknown ones into smaller known parts (exists extensions that focuse on typos)
 
-
-
+- For assessing translation quality, metric **BLEU** is used $-$ assesses how often model guesses right words in right order (from 0 to 100, the higher, the better)
 
 
 
