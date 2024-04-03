@@ -17,4 +17,5 @@ There are seminars where it is needed to finish a couple lines of code compared 
 <br>
 
 ## TODO:
-2. finish *Kneser-Ney smoothing* implementation
+2. Finish *Kneser-Ney smoothing* implementation
+3. Finish *Bonus Tasks* in Language Modelling homework 
