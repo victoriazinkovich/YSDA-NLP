@@ -95,10 +95,11 @@ What we got is the standard left-to-right language modeling framework. This fram
 
 Generation quality metric $-$ instead of cross-entropy, it is more common to report its transformation called perplexity which is from 1 to $|V|$ (**note that** the size of vocabulaty is important! what is token, since that boarders of perplexity can be different)
 
+<br>
 
+<br>
 
-
-
+## 4. Seq2seq and Attention
 
 
 
