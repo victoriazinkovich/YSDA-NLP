@@ -11,7 +11,8 @@ There are seminars where it is needed to finish a couple lines of code compared 
   1. Word Embeddings
   2. Text Classification
   3. Language Modelling
-  4. 
+  4. Seq2seq and Attention
+  5. 
 
 <br>
 
