@@ -70,12 +70,13 @@ RNN Types:
 
 **Subword Segmentation, Byte Pair Encoding** $-$ standard subword segmentation, Byte Pair Encoding (BPE); BPE keeps frequent words intact and splits rare and unknown ones into smaller known parts (exists extensions that focuse on typos)
 
+**BLEU**
+
 - For assessing translation quality, metric **BLEU** is used $-$ assesses how often model guesses right words in right order (from 0 to 100, the higher, the better)
   - Actually, **BLEU is not very good metric** (does not account for different translation variants, sensitive to ordering)
   - There are exists other metrics that try to do better (METEOR, RUSH) $-$ however, human assessment is still very important metric...
 
-
-
+- **Alibi positional encoding** $-$ when we train only on sentences of one fixed size, but want to generalise our model 
 
 
 
