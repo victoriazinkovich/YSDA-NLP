@@ -68,7 +68,7 @@ RNN Types:
 
 ## 4. Seq2seq and Attention
 
-Subword Segmentation, **Byte Pair Encoding** $-$ standard subword segmentation, Byte Pair Encoding (BPE); BPE keeps frequent words intact and splits rare and unknown ones into smaller known parts
+**Subword Segmentation, Byte Pair Encoding** $-$ standard subword segmentation, Byte Pair Encoding (BPE); BPE keeps frequent words intact and splits rare and unknown ones into smaller known parts (exists extensions that focuse on typos)
 
 
 
