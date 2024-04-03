@@ -106,7 +106,7 @@ Generation quality metric $-$ instead of cross-entropy, it is more common to rep
 
 <br>
 
-**Attention** $-$ fixed source representation is suboptimal: (i) for the encoder, it is hard to compress the sentence; (ii) for the decoder, different information may be relevant at different steps $-$ in each state, I'd like to peek at which part of the source is most useful right now 
+**Attention** (2014) $-$ fixed source representation is suboptimal: (i) for the encoder, it is hard to compress the sentence; (ii) for the decoder, different information may be relevant at different steps $-$ in each state, I'd like to peek at which part of the source is most useful right now 
 
 Ways to compute attention score:
 
@@ -116,7 +116,7 @@ Ways to compute attention score:
 
 <br>
 
-**Transformer** $-$ model based solely on attention mechanisms, introduced a new modeling paradigm: in contrast to previous models where processing within encoder and decoder was done with recurrence or convolutions, Transformer operates using only attention.
+**Transformer** (2017) $-$ model based solely on attention mechanisms, introduced a new modeling paradigm: in contrast to previous models where processing within encoder and decoder was done with recurrence or convolutions, Transformer operates using only attention.
 
 
 
