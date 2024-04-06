@@ -14,7 +14,7 @@ Here will briefly write about the seminars and the most important things I learn
 
 <br>
 
-## 2. Text Classification
+## 2. Text Classification 
 
 - **Generative** vs **Discriminative** $-$ in generative we learn the joint distribution of data (we can then generate this data independently), discriminative - we are only interested in the separating boundary between classes 
 
@@ -118,7 +118,11 @@ Ways to compute attention score:
 
 **Transformer** (2017) $-$ model based solely on attention mechanisms, introduced a new modeling paradigm: in contrast to previous models where processing within encoder and decoder was done with recurrence or convolutions, Transformer operates using only attention.
 
+<br>
 
+<br>
+
+## 5. Transfer Learning
 
 
 
