@@ -12,7 +12,8 @@ There are seminars where it is needed to finish a couple lines of code compared 
   2. Text Classification
   3. Language Modelling
   4. Seq2seq and Attention
-  5. 
+  5. Transfer Learning
+  6. 
 
 <br>
 
