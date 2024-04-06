@@ -133,7 +133,7 @@ Ways to compute attention score:
 <br>
 
 The two great ideas:
-- what is encoded: from words to words-in-context: Word2Vec/GloVe/etc. --> Cove/ELMo
+- what is encoded: from words to words-in-context: Word2Vec/GloVe/etc $\longrightarrow$ Cove/ELMo
 
 
 
