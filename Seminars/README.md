@@ -135,11 +135,19 @@ Ways to compute attention score:
 The two great ideas:
 - from words to words-in-context, Put Representations Instead of Word Embeddings: Word2Vec/GloVe/etc $\longrightarrow$ Cove/ELMo
 
+<br>
 
 **ELMo:**
 - authors represent words as outputs of a **character-level network**: CNN operates over this charecter representation, which is very simple and consists of the components we already saw before: convolution, global pooling, highway connections, and linear layers; in this way, word representations know their characters by construction, and we can represent even those words we've never seen in training
 
 ![image](https://github.com/victoriazinkovich/NLP-YSDA/assets/78615928/4a3a4e79-5a00-46be-a84f-953d427a5b60)
+
+- consists of the two-layer LSTM language models: forward and backward; two models are used so that each token could have both contexts: left and right
+
+![image](https://github.com/victoriazinkovich/NLP-YSDA/assets/78615928/60e28b89-bfa4-4dbb-af7b-97ebe60e6da6)
+
+
+
 
 
 
