@@ -133,7 +133,8 @@ Ways to compute attention score:
 <br>
 
 The two great ideas:
-- from words to words-in-context, Put Representations Instead of Word Embeddings: Word2Vec/GloVe/etc $\longrightarrow$ Cove/ELMo
+1. from words to words-in-context, Put Representations Instead of Word Embeddings: Word2Vec/GloVe/etc $\longrightarrow$ **Cove/ELMo**
+2. Refuse From Task-Specific Models $-$ CoVe/ELMo replace word embeddings, but **GPT/BERT** replace entire models!
 
 <br>
 
