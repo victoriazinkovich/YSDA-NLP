@@ -124,7 +124,9 @@ Ways to compute attention score:
 
 ## 5. Transfer Learning
 
+**Transfer Learning** $-$ "transfer" knowledge from one task/model to another: e.g. you don't have a huge amount of data for the classification task, and it is hard to get a good model using only this data; instead, you can have data for some other task (language modeling), which is easier to get (for LM you don't need labels at all - plain texts are enough)
 
+- Simplest Transfer: Word Embeddings $-$ take pretrained (Word2Vec, GloVe, etc) and fix them (use them as static vectors) or initialize with pretrained embeddings and train them with the network ("fine-tune")
 
 
 
