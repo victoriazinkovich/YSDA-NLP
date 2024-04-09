@@ -90,7 +90,7 @@ What we got is the standard left-to-right language modeling framework. This fram
 - **Neural models** $-$ main idea here is to get a vector representation for the previous context; using this representation, a model predicts a probability distribution for the next token; looks similar to **classification**!
     - Last linear layer maps to the size of vocabulary, then apply Softmax
     - Types of NM:
-        - Recurent NN (few Layers of RNN)
+        - Recurent NN (few Layers of RNN) [RNN $\rightlongarrow$ GRU $\rightlongarrow$ LSTM]
         - Convolution NN
 
 Generation quality metric $-$ instead of cross-entropy, it is more common to report its transformation called perplexity which is from 1 to $|V|$ (**note that** the size of vocabulaty is important! what is token, since that boarders of perplexity can be different)
@@ -139,7 +139,7 @@ The two great ideas:
 <br>
 
 **ELMo:**
-- authors represent words as outputs of a **character-level network**: CNN operates over this charecter representation, which is very simple and consists of the components we already saw before: convolution, global pooling, highway connections, and linear layers; in this way, word representations know their characters by construction, and we can represent even those words we've never seen in training
+- authors represent words as outputs of a **character-level network**: CNN operates over this charecter representation, which is very simple and consists of the components we already saw before: convolution, global pooling, highway connections, and linear layers; in this way, word representations know their characters by construction, and we can represent even those words we've never seen in training (BPE will have some strange tokens, while this way will make words with typos similar)
 
 ![image](https://github.com/victoriazinkovich/NLP-YSDA/assets/78615928/4a3a4e79-5a00-46be-a84f-953d427a5b60)
 
