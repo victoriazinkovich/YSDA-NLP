@@ -138,6 +138,8 @@ The two great ideas:
 
 <br>
 
+### Great Idea 1: Embeddings from Language Models
+
 **ELMo:** (2018)
 Just by replacing word embeddings (GloVe) with embeddings from LM they got a huge improvement
 
@@ -153,6 +155,7 @@ Just by replacing word embeddings (GloVe) with embeddings from LM they got a hug
 
 <br>
 
+### Great Idea 2: Refuse From Task-Specific Models
 
 
 
