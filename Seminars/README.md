@@ -156,9 +156,11 @@ Just by replacing word embeddings (GloVe) with embeddings from LM they got a hug
 <br>
 
 ### Great Idea 2: Refuse From Task-Specific Models
+GPT/BERT act not as a replacement for word embeddings, but as a replacement for task-specific models
 
-
-
+- model is first pretrained using a huge amount of unlabeled data (plain texts)
+- model is fine-tuned on each of the downstream tasks
+- now during fine-tuning you have to only **feed the data in a certain way** instead of modifying model architecture.
 
 
 
